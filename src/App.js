@@ -1,5 +1,5 @@
 
-import './App.css';
+import './components/App.css';
 import './components/index.css';
 import Navbar from './components/Navbar.js';
 import Textform from './components/Textform.js';
@@ -85,19 +85,16 @@ function App() {
 
   return (
     <>
-       {/* <Router> */}
+      
       <Navbar title="TestUtils" home="Home" about="About" navMode={mode} theme = {modeText} toggleMode = {toggleMode} pallete= {colorPallete}  />
       <Alert   alert={alert}/>
       <div className='main_container'>
    
-      {/* <Routes>
-          <Route exact path="/about" element={ <About title="About Us" />} />
-          <Route exact path="/" element ={<Textform  heading="Enter the text to analyze below" textmode = {mode} showAlert = {showAlert}/>} />
-        </Routes> */}
-<Textform  heading="Enter the text to analyze below" textmode = {mode} showAlert = {showAlert}/>
+     
+    <Textform  heading="Enter the text to analyze below" textmode = {mode} showAlert = {showAlert}/>
 
       </div>
-      {/* </Router> */}
+
     </>
   );
 
