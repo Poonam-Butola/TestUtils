@@ -1,5 +1,5 @@
 
-import './components/App.css';
+import './App.css';
 import './components/index.css';
 import Navbar from './components/Navbar.js';
 import Textform from './components/Textform.js';
