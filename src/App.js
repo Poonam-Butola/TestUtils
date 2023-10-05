@@ -91,7 +91,7 @@ function App() {
       <div className='main_container'>
    
      
-    <Textform  heading="Enter the text to analyze below" textmode = {mode} showAlert = {showAlert}/>
+    <Textform  heading="Enter the text to analyze below gfhtyg" textmode = {mode} showAlert = {showAlert}/>
 
       </div>
 
